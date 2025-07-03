@@ -10,7 +10,7 @@ const routes = [
   { path: '/dashboard', component: Dashboard },
   { path: '/login', component: () => import('@/pages/Login.vue') },
   { path: '/register', component: () => import('@/pages/Register.vue') },
-  { path: '/profile', component: () => import('@/pages/Profile.vue'), meta: { requiresAuth: true } },
+  { path: '/profile', component: () => import('@/pages/Profile.vue') },
 ]
 
 const router = createRouter({
